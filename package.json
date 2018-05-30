@@ -4,7 +4,9 @@
   "description": "Yomunche",
   "main": "bot.js",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "eris": "^0.8.1",
+    "npm": "^6.1.0",
     "voice-text": "^0.1.2"
   },
   "devDependencies": {},
