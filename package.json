@@ -1,0 +1,23 @@
+  "name": "Yomunche",
+  "version": "1.0.0",
+  "description": "Yomunche",
+  "main": "bot.js",
+  "dependencies": {
+    "eris": "^0.8.1",
+    "voice-text": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munchera/yomuncherat.git"
+  },
+  "keywords": [],
+  "author": "muncherat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/munchera/yomuncherat/issues"
+  },
+}
