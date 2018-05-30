@@ -1,9 +1,10 @@
+require('dotenv').config();
 const ignore = 399984411501658151
 const Eris = require("eris");
 const { VoiceText } = require('voice-text');
 const { writeFileSync } = require('fs');
 
-const voiceText = new VoiceText(proccess.env.Token_VoiceText);
+const voiceText = new VoiceText(process.env.Token_VoiceText);
 const bot = new Eris(process.env.Token_Discord);
 
 var connection = null;
