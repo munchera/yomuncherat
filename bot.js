@@ -3,8 +3,8 @@ const Eris = require("eris");
 const { VoiceText } = require('voice-text');
 const { writeFileSync } = require('fs');
 
-const voiceText = new VoiceText(proccess.env.VoiceTextToken);
-const bot = new Eris(process.env.DiscordToken);
+const voiceText = new VoiceText(proccess.env.Token_VoiceText);
+const bot = new Eris(process.env.Token_Discord);
 
 var connection = null;
 var textBuffer = [];
