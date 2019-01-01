@@ -9,7 +9,7 @@ const bot = new Eris(process.env.Token_Discord);
 
 var connection = null;
 var textBuffer = [];
-const ChannelName = 'general'
+const ChannelName = 'silent'
 var userVoice = {};
 var userSpeed = {};
 var userPitch = {};
